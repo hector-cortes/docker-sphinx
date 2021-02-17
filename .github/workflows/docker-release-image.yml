@@ -19,6 +19,6 @@ jobs:
 
     - name: Push to Docker registry
       run: |
-        $VERSION=$(echo VERSION)
+        VERSION=$(cat VERSION)
         docker tag ${{ secrets.DOCKER_IMAGENAME }} $VERSION
         docker push ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_IMAGE_NAME }}:$VERSION

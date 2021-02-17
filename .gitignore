@@ -1,0 +1,11 @@
+# Python Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ignore environment file
+.env
+
+# ignore sphinx related files
+conf.py
+index.rst

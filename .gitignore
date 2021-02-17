@@ -7,5 +7,4 @@ __pycache__/
 .env
 
 # ignore sphinx related files
-conf.py
 index.rst
